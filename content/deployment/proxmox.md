@@ -25,6 +25,7 @@ I do not officially support or troubleshoot DetectionLab issues using the Proxmo
 5. Install Ansible and pywinrm via **pip3 install ansible pywinrm --user** or by creating and using a virtual environment.  
 6. Packer v1.7.0+ must be installed and in your PATH  
 7. sshpass must be installed to allow Ansible to use password login. On MacOS, install via brew install hudochenkov/sshpass/sshpass as brew install sshpass does not allow it to be installed.
+8. Packer must have the Proxmox plugin installed and available. Documentation for installation is available here: https://developer.hashicorp.com/packer/integrations/hashicorp/proxmox
 
 ### Steps
 
